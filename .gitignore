@@ -1,8 +1,6 @@
-# Ignorar el entorno virtual
-venv\
+.env
+venv/
 
-# Ignorar archivos sensibles
-backend\portfolio_backend\.env
 
 # Ignorar archivos de caché y compilación de Python
 portfolio_backend\*.pyc
