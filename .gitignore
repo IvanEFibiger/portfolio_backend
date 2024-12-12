@@ -1,0 +1,17 @@
+# Ignorar el entorno virtual
+venv\
+
+# Ignorar archivos sensibles
+backend\portfolio_backend\.env
+
+# Ignorar archivos de caché y compilación de Python
+portfolio_backend\*.pyc
+portfolio_backend\__pycache__\
+
+# Ignorar archivos creados automáticamente
+portfolio_backend\*.log
+portfolio_backend\db.sqlite3  # Si usas SQLite localmente para pruebas
+
+# Ignorar configuraciones específicas del editor de texto
+*.vscode\
+*.idea\
